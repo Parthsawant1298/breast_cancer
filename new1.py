@@ -4,7 +4,7 @@ import streamlit as st
 from PIL import Image
 
 # Load the trained model
-cnn = tf.keras.models.load_model('breastcancer.keras')
+cnn = tf.keras.models.load_model("breastcancer.keras")
 
 # Create the Streamlit app
 st.title("Breast Cancer Detection")
